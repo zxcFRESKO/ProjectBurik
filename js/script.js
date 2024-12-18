@@ -121,8 +121,6 @@ btn_three.addEventListener('click', paginationThree)
 
 
 
-
-
 async function paginationOne(){
     const loaderWrap = document.querySelector('.loader_wrap');
     loaderWrap.classList.remove('hide');
