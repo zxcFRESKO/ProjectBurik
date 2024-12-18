@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="/css/contacts.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header_wrap">
+                <div class="header_wrapper">
+                    <div class="menushka">
+                        <a href="/html/main.html" class = 'logo_link'><img src="/img/free-icon-refresh-database-2952973.png" alt="" class="logo logo-menu"><p class = 'logo__tite'>GRADE </p></a>
+                        <ul class="logo-menu menu_ul">
+                            <hr class = 'logo-menu'>
+                            <li class="logo-menu "><a href="/html/contacts.html"></a></li>
+                            <a href="/html/index.html" class="menu_li"><li class="logo-menu menu_li marg">Назад</li></a>
+                            <a href="/html/index.html#page_two" class="menu_li"><li class="logo-menu menu_li">Перейти к поиску</li></a>
+                            <a href="#" class="menu_li"><li class="logo-menu menu_li">f</li></a>
+                        </ul>
+                    </div>
+                    <div class="thema">
+                        <img src="/img/free-icon-sun-5903519.png" alt="включить свет" class="sun hide">
+                        <img src="/img/icons8-луна-50.png" alt="выключить свет" class="moon">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </header>
+        <div class="container">
+            <div class="contacts_title">
+                <h1 class="contacts_title_h">
+                    Контакты
+                </h1>
+                <button class="open_modal">Связаться с нами</button>
+            </div>
+                <div class="contacts_convas">
+                    <p class="contacts_number">Номер: 89393843707</p>
+                    <p class="contacts_email">email: burhonidin2009@gmail.com</p>
+                    <p class="contacts_tg">tg: @zoldik52</p>
+                </div>
+        </div>
+        <div class="modal_wrap">
+            <div class="modal hide">
+                <div class="modal_wrapper">
+                    <div class="close">
+                        <p class="close_modal">&times;</p>
+                    </div>
+                        <div class="modal_title">
+                            <h2>Напишите свое предложение или просьбу</h2>
+                        </div>
+                    <div class="name_div">
+                    <input type="text" class="name input" placeholder="Имя" name="name"> 
+                    </div>   
+                    <div class="em_and_tel_div">
+                    <input type="tel" class="tel input" name="phone" placeholder="Телефон">
+                    <input type="email" class="email input" name="email" placeholder="Email">
+                    </div>
+                    <textarea body-scroll-lock-ignore spellcheck="true" name="comment" class="comment" placeholder="Комментарий"></textarea>
+                    <button type="submit" class="send input">Отправить</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="/js/contacts.js"></script> 
+</body>
+</html>

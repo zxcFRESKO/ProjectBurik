@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#welcome-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background: url('/img/1521497_original.jpg') no-repeat center center/cover; /* Замените на ваш фон */
+    text-align: center;
+    color: white;
+}
+
+.welcome-content {
+    width: 40%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон для текста */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.start-tour-button {
+    width: px;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Цвет кнопки */
+    color: white; /* Цвет текста кнопки */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.start-tour-button:hover {
+    background-color: #0056b3; /* Цвет кнопки при наведении */
+}

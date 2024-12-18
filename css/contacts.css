@@ -1,0 +1,214 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+body.night{
+    background: #000000;
+    color: #fff;
+}
+header { 
+    padding: 10px 0;
+    text-align: center;   
+    border-bottom:1px solid #ffc0cb;
+}
+.container{
+    width: 100%;
+    max-width: 1370px;
+    margin: auto;
+}
+.header_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+}
+.sun{
+    width: 50px;
+    height: 50px;
+    transition: 0.5s;
+
+}
+.moon:hover{
+    cursor: pointer;
+}
+.sun:hover{
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.hide{
+    display: none;
+}
+.menu_ul{
+    color: white;
+    position: absolute;
+    list-style: none;
+    padding: 40px;
+    left: 0px;
+    width: 15%;
+    top: 0;
+    height: 100%;
+    position: absolute;     
+    background: rgba(0,0,0,0.5);
+    display: none;
+    margin-top: 0px;
+}
+.menu_ul._active{
+    display: block;
+    position: fixed;
+}
+.menu_li{
+    list-style: none;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+hr{
+    margin-top: 50px;
+    width:100px;
+}
+.menu_title{
+    display: flex;
+}
+.page_one_wrap{
+    display: flex;
+}
+.page_one_title{
+    width: 700px;
+}
+.logo_link{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.logo_link img{
+    padding-right: 5px;
+}   
+.contacts_convas{
+    margin-top: 100px;
+}
+.contacts_number{
+    font-size: 28px;
+}
+.contacts_email{
+    font-size: 28px;
+}
+.contacts_tg{
+    font-size: 28px;
+}
+.contacts_number:hover{ 
+    cursor: pointer;
+}
+.contacts_email{
+    cursor: pointer;
+}
+.contacts_tg{
+    cursor: pointer;
+}
+.close{
+    color: #0e0708;
+}
+.open_modal{
+    width: 20%;
+    background: rgb(58, 142, 184);
+    background-color: rgb(58, 142, 184);
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+}
+.open_modal:hover{
+    cursor: pointer;
+}
+.close_modal{
+    cursor:pointer;
+}
+.close{
+    display: flex;
+    justify-content: end;
+}
+.modal.hide{
+    display: none;
+}
+.modal_wrap {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Полупрозрачный фон */
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center; /* Центрирование по вертикали */
+    z-index: 1000;/*  Убедитесь, что модальное окно поверх других элементов */ 
+}
+.modal_wrap.abs{
+    position: absolute;
+}
+.modal {
+    height: 500px; 
+    position: fixed; 
+    display: flex;
+    justify-content: center;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    width: 600px; /* Ширина модального окна */
+    max-width: 90%; /* Максимальная ширина для мобильных устройств */
+}
+
+.modal_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.send{
+    width: 40%;
+    background: rgb(58, 142, 184);
+    background-color: rgb(58, 142, 184);
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    margin-top: 20px;
+}
+.send:hover{
+    cursor: pointer;
+}
+.name{
+    width: 550px;
+    height: 56px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.tel{
+    width: 260px;
+    margin-right: 15px;
+    height: 56px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.email{
+    width: 260px;
+    height: 56px;
+    border-radius: 10px;
+}
+.comment{
+    width: 550px;
+    height: 100px;
+    border-radius: 10px;
+}
+.input{
+    border: none;
+}
