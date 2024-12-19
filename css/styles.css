@@ -350,12 +350,10 @@ iframe{
     padding-left: 40px;
     padding-top: 90px;
 }
-/* Слайдер */
-@media (max-width: 320px) {
+@media (max-width: 400px) {
     body{
         overflow-y: scroll;
     }
-    /* Header */
     .container{
         display: flex;
         flex-direction: column;
@@ -363,8 +361,6 @@ iframe{
     .header_wrapper {
         flex-direction: column;
         flex-wrap: wrap;
-        /* align-items: center; */
-        /* padding: 10px; */
     }
     .menushka{
         display: flex;
@@ -389,7 +385,250 @@ iframe{
     .logo__title {
         font-size: 1.2rem;
     }
-    /* Page One */
+    .page_one_title_h1 {
+        font-size: 2rem;
+        width: 400px;
+    }
+    .page_one_title{
+        width: 4000px;
+    }
+    .page_wrap{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .page_one_wrapper{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .page_one_paragraph {
+        width: 400px;
+        font-size: 0.9rem;
+        padding: 0px;
+    }
+.card{
+    width: 400px;
+    padding: 0;
+    margin: 0;
+}
+.cards{
+    width: 400px;
+}
+    .go_to_search_btn {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+    .img_href{
+        width: 400px;
+    }
+    .page_two_img{
+        width: 400px;
+    }
+    #slider {
+        position: relative;
+        max-width: 400px;
+        margin: auto;
+        margin-top: 150px;
+        overflow: hidden;
+    }
+    .slider-container {
+        position: relative;
+    }
+        .slides {
+        height: 370px;
+        display: flex;
+        transition: transform 0.5s ease;
+    }
+    .slide {
+        min-width: 100%;
+        box-sizing: border-box;
+    }
+    .slide img {
+        width: 100%;
+        height: auto; 
+    }
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    .next{
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }   
+    .prev:hover, .next:hover {
+        background-color: rgba(255, 254, 254, 0.8); 
+    }
+    .prev img {
+        width: 15px;
+        height: 15px;
+    }
+    .next img {
+        width: 15px;
+        height: 15px;
+    }
+   .slide img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .prev, .next {
+        top: 50%;
+        transform: translateY(-50%);
+        width: 24px;
+        height: 24px;
+    }
+    .page_two_inputs_wrapp {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .filtration_ul {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .filtration_li {
+        margin: 5px;
+        font-size: 0.9rem;
+    }
+
+    .search {
+        width: 100%;
+        margin-top: 10px;
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card_first_line, .card_second_line, .card_third_line {
+        width: 100%;
+    }
+
+    .pagination_div {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .btn_one, .btn_two, .btn_three {
+        padding: 8px;
+        font-size: 0.9rem;
+        margin: 0 5px;
+    }
+    iframe{
+        width: 400px;
+        height: 270px;
+        padding: 0;
+    }
+    footer {
+        text-align: center;
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+    .description_img{
+        width: 400px;
+        height: 270px;
+    }
+
+    .description_wrapper{
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+    #descriptions{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        padding-bottom: 450px;
+        display: flex;
+    }
+    .page_one_title{
+        width: 400px;
+    } 
+    .descriptions_wrap{
+        display: flex;
+        flex-direction: column;
+        .loader_wrap {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 320px;
+            background-color: rgba(255, 255, 255, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+        .loader_wrap.hide{
+            display: none;
+        } 
+         .loader { 
+            width: 120px;
+            height: 20px;
+            transform: skewX(-45deg);
+            background: 
+            linear-gradient(#f03355 0 0) left -30px top 0/30px 20px no-repeat 
+            #ccc;
+            animation: l3 1s infinite linear;
+          }
+          
+          @keyframes l3 {
+            100% {background-position: right -30px top 0}
+          }
+    }
+}
+@media (max-width: 320px) {
+    body{
+        overflow-y: scroll;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .header_wrapper {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .menushka{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .menu_ul {
+        width: 120px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .menu_ul li {
+        margin: 5px 0;
+    }
+
+    .logo_link {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .logo__title {
+        font-size: 1.2rem;
+    }
     .page_one_title_h1 {
         font-size: 2rem;
         width: 320px;
@@ -430,7 +669,6 @@ iframe{
     .page_two_img{
         width: 300px;
     }
-    /* Slider */
     #slider {
         position: relative;
         max-width: 320px;
@@ -493,8 +731,6 @@ iframe{
         width: 24px;
         height: 24px;
     }
-
-    /* Page Two */
     .page_two_inputs_wrapp {
         flex-direction: column;
         align-items: flex-start;
@@ -545,7 +781,6 @@ iframe{
         height: 270px;
         padding: 0;
     }
-    /* Footer */
     footer {
         text-align: center;
         font-size: 0.8rem;
@@ -585,7 +820,6 @@ iframe{
         .loader_wrap.hide{
             display: none;
         } 
-        /* HTML: <div class="loader"></div> */
          .loader { 
             width: 120px;
             height: 20px;

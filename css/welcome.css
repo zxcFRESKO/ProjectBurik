@@ -20,7 +20,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон для текста */
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 10px;
 }
@@ -30,13 +30,13 @@
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #007BFF; /* Цвет кнопки */
-    color: white; /* Цвет текста кнопки */
+    background-color: #007BFF; 
+    color: white; 
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
 .start-tour-button:hover {
-    background-color: #0056b3; /* Цвет кнопки при наведении */
+    background-color: #0056b3;
 }
