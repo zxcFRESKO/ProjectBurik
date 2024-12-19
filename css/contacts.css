@@ -134,11 +134,11 @@ hr{
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7); /* Полупрозрачный фон */
+    background: rgba(0, 0, 0, 0.7); 
     display: flex;
-    justify-content: center; /* Центрирование по горизонтали */
-    align-items: center; /* Центрирование по вертикали */
-    z-index: 1000;/*  Убедитесь, что модальное окно поверх других элементов */ 
+    justify-content: center; 
+    align-items: center;
+    z-index: 1000;
 }
 .modal_wrap.abs{
     position: absolute;
@@ -152,8 +152,8 @@ hr{
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-    width: 600px; /* Ширина модального окна */
-    max-width: 90%; /* Максимальная ширина для мобильных устройств */
+    width: 600px; 
+    max-width: 90%; 
 }
 
 .modal_wrapper {
