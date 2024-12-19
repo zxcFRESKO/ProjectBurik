@@ -107,7 +107,7 @@ hr{
     color: #0e0708;
 }
 .open_modal{
-    width: 30%;
+    width: 150px;
     background: rgb(58, 142, 184);
     background-color: rgb(58, 142, 184);
     color: #fff;
@@ -255,9 +255,13 @@ hr{
 }
 
 @media (max-width:400px){
+    .contacts_convas p{
+        font-size: 20px;
+    }
     .container{
-        display: flex;
-        flex-direction: column;
+        width: 320px;
+        margin: 0;
+        padding: 0;
     }
     .header_wrapper {
         flex-direction: column;
@@ -295,15 +299,34 @@ hr{
         width: 200px;
     }
     .container{
-        width: 320px;
+        width: 300px;
     }
     .modal_wrap .abs{
-        width: 100%;   
+        width: 200px;   
     }
     .modal_wrapper{
-        width: 320px;
+        width: 250px;
+    }
+    .modal{
+        margin: 0;
+        padding: 0;
     }
     .comment{
         width: 320px;
+    }
+    .name_div input{
+        width: 200px;
+    }
+    .em_and_tel_div input{
+        width: 200px;
+    }
+    .modal_wrapper textarea{
+        width: 220px;
+    }
+    .send{
+        width: 120px;
+    }
+    .open_modal{
+        width: 150px;
     }
 }

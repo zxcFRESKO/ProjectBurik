@@ -353,7 +353,7 @@ iframe{
 /* Слайдер */
 @media (max-width: 320px) {
     body{
-        overflow: scroll;
+        overflow-y: scroll;
     }
     /* Header */
     .container{
@@ -389,14 +389,12 @@ iframe{
     .logo__title {
         font-size: 1.2rem;
     }
-
-    .thema img {
-        display: none;
-    }
-
     /* Page One */
     .page_one_title_h1 {
         font-size: 2rem;
+        width: 320px;
+    }
+    .page_one_title{
         width: 320px;
     }
     .page_wrap{
@@ -414,12 +412,24 @@ iframe{
         font-size: 0.9rem;
         padding: 0px;
     }
-
+.card{
+    width: 300px;
+    padding: 0;
+    margin: 0;
+}
+.cards{
+    width: 300px;
+}
     .go_to_search_btn {
         padding: 10px;
         font-size: 0.9rem;
     }
-
+    .img_href{
+        width: 300px;
+    }
+    .page_two_img{
+        width: 300px;
+    }
     /* Slider */
     #slider {
         position: relative;
