@@ -6,10 +6,7 @@ body {
     overflow: hidden;    
     scroll-behavior: smooth;
 }
-body.night{
-    background: #000000;
-    color: #fff;
-}
+
 header { 
     align-items: center;
     display: flex;
@@ -34,16 +31,6 @@ header {
 .logo img{
     width: 40px;
     height: 40px;
-}
-.sun{
-    width: 50px;
-    height: 50px;
-}
-.moon:hover{
-    cursor: pointer;
-}
-.sun:hover{
-    cursor: pointer;
 }
 .hide{
     display: none;

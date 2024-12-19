@@ -1,8 +1,6 @@
 const menu = document.querySelector('.logo-menu')
 const menu_ul = document.querySelector('.menu_ul')
 const titler = document.querySelector('.page_one_title_h1')
-const moon = document.querySelector('.moon')
-const sun = document.querySelector('.sun')
 const search_input = document.querySelector('.search')
 const cards_one = document.querySelector('.cards')
 const cards_two = document.querySelector('.cards_two')
@@ -11,24 +9,6 @@ const btn_one = document.querySelector('.btn_one')
 const btn_two = document.querySelector('.btn_two')
 const btn_three = document.querySelector('.btn_three')          
 
-
-moon.addEventListener('click', Moon)
-
-function Moon(){
-    let body = document.querySelector('body') 
-    moon.classList.add('hide')
-    sun.classList.remove('hide')
-    body.classList.add('night')
-}
-sun.addEventListener('click', Sun)
-
-function Sun(){
-    let body = document.querySelector('body') 
-    sun.classList.add('hide')
-    moon.classList.remove('hide')
-    body.classList.remove('night')
-    
-}
 let currentSlide = 0
 
 function showSlide(index) {
