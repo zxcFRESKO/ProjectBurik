@@ -74,10 +74,10 @@ search_input.oninput = async function() {
                     <a href="?id=${data_first[i].id}#descriptions"><img src="${data_first[i].img}" alt="" class="page_two_img"></a>
                 </div>
             `
-            
         )}else{
             card.classList.add('hide')
         }})}
+        
 }catch(error){
     console.log('error', error)
 }finally{
@@ -290,7 +290,7 @@ async function descriptions() {
         <p class="description_text">${data[i].info}</p>
          <div class="container">
             <div class="back_div">
-                <a href="#page_two"><button class="back">Назад</button></a>
+                <a class = 'img_href' href="#page_two"><button class="back">Назад</button></a>
             </div>
         </div>
         </div>
