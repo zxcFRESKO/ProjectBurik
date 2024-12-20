@@ -296,32 +296,32 @@ hr{
         display: none;
     }
     .contacts_convas{
-        width: 200px;
+        width: 400px;
     }
     .container{
-        width: 300px;
+        width: 400px;
     }
     .modal_wrap .abs{
-        width: 200px;   
+        width: 300px;   
     }
     .modal_wrapper{
-        width: 250px;
+        width: 350px;
     }
     .modal{
         margin: 0;
         padding: 0;
     }
     .comment{
-        width: 320px;
+        width: 400px;
     }
     .name_div input{
-        width: 200px;
+        width: 300px;
     }
     .em_and_tel_div input{
-        width: 200px;
+        width: 300px;
     }
     .modal_wrapper textarea{
-        width: 220px;
+        width: 320px;
     }
     .send{
         width: 120px;
