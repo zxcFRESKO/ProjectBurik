@@ -15,8 +15,8 @@ header {
     border-bottom:1px solid #ffc0cb;
 }
 .menu{
-    padding-left: 50px;
-    padding-top: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
 }
 .container{
     width: 100%;
@@ -403,18 +403,18 @@ iframe{
         flex-wrap: wrap;
     }
     .page_one_paragraph {
-        width: 400px;
+        width: 320px;
         font-size: 0.9rem;
         padding: 0px;
     }
-.card{
-    width: 400px;
-    padding: 0;
-    margin: 0;
-}
-.cards{
-    width: 400px;
-}
+    .card{
+        width: 400px;
+        padding: 0;
+        margin: 0;
+    }
+    .cards{
+        width: 400px;
+    }
     .go_to_search_btn {
         padding: 10px;
         font-size: 0.9rem;
@@ -424,6 +424,7 @@ iframe{
     }
     .page_two_img{
         width: 400px;
+        margin: 0;
     }
     #slider {
         position: relative;
@@ -562,6 +563,7 @@ iframe{
     .page_one_title{
         width: 400px;
     } 
+
     .descriptions_wrap{
         display: flex;
         flex-direction: column;
@@ -647,18 +649,18 @@ iframe{
         flex-wrap: wrap;
     }
     .page_one_paragraph {
-        width: 320px;
+        width: 220px;
         font-size: 0.9rem;
         padding: 0px;
     }
-.card{
-    width: 300px;
-    padding: 0;
-    margin: 0;
-}
-.cards{
-    width: 300px;
-}
+    .card{
+        width: 300px;
+        padding: 0;
+        margin: 0;
+    }
+    .cards{
+        width: 300px;
+    }
     .go_to_search_btn {
         padding: 10px;
         font-size: 0.9rem;
@@ -669,72 +671,11 @@ iframe{
     .page_two_img{
         width: 300px;
     }
-    #slider {
-        position: relative;
-        max-width: 320px;
-        margin: auto;
-        margin-top: 150px;
-        overflow: hidden;
-    }
-    .slider-container {
-        position: relative;
-    }
-        .slides {
-        height: 370px;
-        display: flex;
-        transition: transform 0.5s ease;
-    }
-    .slide {
-        min-width: 100%;
-        box-sizing: border-box;
-    }
-    .slide img {
-        width: 100%;
-        height: auto; 
-    }
-    .prev, .next {
-        cursor: pointer;
-        position: absolute;
-        top: 50%;
-        width: auto;
-        padding: 16px;
-        color: white;
-        font-weight: bold;
-        font-size: 18px;
-        transition: 0.6s ease;
-        border-radius: 0 3px 3px 0;
-        user-select: none;
-    }
-    .next{
-        right: 0;
-        border-radius: 3px 0 0 3px;
-    }   
-    .prev:hover, .next:hover {
-        background-color: rgba(255, 254, 254, 0.8); 
-    }
-    .prev img {
-        width: 15px;
-        height: 15px;
-    }
-    .next img {
-        width: 15px;
-        height: 15px;
-    }
-   .slide img {
-        width: 320px;
-        height: 320px;
-    }
-
-    .prev, .next {
-        top: 50%;
-        transform: translateY(-50%);
-        width: 24px;
-        height: 24px;
-    }
     .page_two_inputs_wrapp {
         flex-direction: column;
         align-items: flex-start;
-        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .filtration_ul {

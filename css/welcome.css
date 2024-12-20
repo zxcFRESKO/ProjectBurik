@@ -40,3 +40,14 @@
 .start-tour-button:hover {
     background-color: #0056b3;
 }
+@media(max-width: 320px) {
+    .welcome-content{
+        width: 400px;
+    }
+    .welcome-content h1{
+        font-size: 18px;
+    }
+    .welcome-content p{
+        font-size: 13px;
+    }
+}
