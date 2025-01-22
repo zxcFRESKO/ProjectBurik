@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden;     */
+  scroll-behavior: smooth;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+a{
+  text-decoration: none;
+}
