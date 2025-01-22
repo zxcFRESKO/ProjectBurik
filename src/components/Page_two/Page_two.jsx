@@ -1,6 +1,6 @@
 import { useQuery} from "@tanstack/react-query";
 import { ItemFilter } from "../itemFilter";
-import {Link} from 'react-router-dom'
+import {Link, useNavigate} from 'react-router-dom'
 import React, { useState, useEffect } from "react";
 import "./Page_two.css";
 import Loader from "../loader";
@@ -13,6 +13,7 @@ export default function Page_two() {
   const [descId, setDescId] = useState("");
   const [itemDetails, setItemDetails] = useState(null);
   const [sortOrder, setSortOrder] = useState("default_sort"); 
+  const navigate = useNavigate()
   const { isLoading, data } = useQuery({
     queryKey: ["class", { targetId, search, descId, sortOrder }],
     queryFn: async () => {
@@ -32,7 +33,7 @@ export default function Page_two() {
         url.searchParams.append("id", descId);
       }
       if (sortOrder !== "default_sort") {
-        url.searchParams.append("sortBy", sortOrder); // Добавляем параметр сортировки
+        url.searchParams.append("sortBy", sortOrder);
       }
       
       const response = await fetch(url.toString());
@@ -169,9 +170,9 @@ export default function Page_two() {
             </div>
           </div>
           <div className="container">
-            <div className="back_div">
-              <Link to="/home">
-                <button className="back">Назад</button>
+            <div className="back_page_two">
+              <Link to="/page_two">
+                <button className="back" onClick={() => navigate(-1)}>Назад</button>
               </Link>
             </div>
           </div>
@@ -186,11 +187,11 @@ export default function Page_two() {
             <div>
               <h2>{itemDetails.name}</h2>
               <img src={itemDetails.img} alt={itemDetails.name} className="description_img"/>
-              <p>{itemDetails.info}</p>{" "}
+              <p>{itemDetails.info}</p>
             </div>
             <div class="container">
             <div class="back_div">
-                <Link to="/home"><button class="back">Назад</button></Link>
+                <Link to="/home"><button class="back"  onClick={() => navigate(-1)}>Назад</button></Link>
             </div>
         </div>
             </>

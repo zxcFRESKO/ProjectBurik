@@ -1,7 +1,7 @@
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { useState } from "react";
-import Loader from "./loader";
-
+import Loader from "../loader";
+import './Reviews.css'
 export default function Reviews(){
     const [reviewName, setReviewName] = useState("");
     const [reviewText, setReviewText] = useState(""); 
@@ -76,7 +76,7 @@ return(
                     <Loader />
                   ) : reviews && reviews.length > 0 ? (
                     reviews.map(review => (
-                      <div key={review.id} className="review">
+                      <div key={review.id} className="review_item">
                         <strong>{review.name}</strong>: <p>{review.text}</p>
                       </div>
                     ))

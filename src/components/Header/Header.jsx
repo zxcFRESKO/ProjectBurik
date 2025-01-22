@@ -6,7 +6,7 @@ import '../../App.css'
 import Page_two from "../Page_two/Page_two";
 import Contacts from "../Contacts/Contacts";
 import Page_One from "../Page_one/Page_one";
-import Reviews from "../Reviews";
+import Reviews from "../Reviews/Reviews";
 
 export default function Header() {
   function menuView() {
