@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ProjectBurik/static/css/main.385b8b5a.css",
-    "main.js": "/ProjectBurik/static/js/main.5ae095c0.js",
+    "main.css": "/ProjectBurik/static/css/main.9be66ed4.css",
+    "main.js": "/ProjectBurik/static/js/main.d9a1cde9.js",
     "static/media/nizhnekamsk_045.jpg": "/ProjectBurik/static/media/nizhnekamsk_045.ef05aaf8756c31dc244c.jpg",
     "static/media/park-chtenija-i-otdyha-imeni-gabdully-tukaja-v-nizhnekamske.webp": "/ProjectBurik/static/media/park-chtenija-i-otdyha-imeni-gabdully-tukaja-v-nizhnekamske.c600d03f0be7d4897972.webp",
     "static/media/free-icon-refresh-database-2952973.png": "/ProjectBurik/static/media/free-icon-refresh-database-2952973.4eefd43c8ab8a65f4ddf.png",
     "static/media/sobornaja-mechet-nizhnekamska.webp": "/ProjectBurik/static/media/sobornaja-mechet-nizhnekamska.4c2a9958fd8e15c2b063.webp",
     "index.html": "/ProjectBurik/index.html",
-    "main.385b8b5a.css.map": "/ProjectBurik/static/css/main.385b8b5a.css.map",
-    "main.5ae095c0.js.map": "/ProjectBurik/static/js/main.5ae095c0.js.map"
+    "main.9be66ed4.css.map": "/ProjectBurik/static/css/main.9be66ed4.css.map",
+    "main.d9a1cde9.js.map": "/ProjectBurik/static/js/main.d9a1cde9.js.map"
   },
   "entrypoints": [
-    "static/css/main.385b8b5a.css",
-    "static/js/main.5ae095c0.js"
+    "static/css/main.9be66ed4.css",
+    "static/js/main.d9a1cde9.js"
   ]
 }
